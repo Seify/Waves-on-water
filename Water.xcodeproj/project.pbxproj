@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B111B05F14C9F5D6001A8767 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B111B05E14C9F5D6001A8767 /* SettingsTableViewController.m */; };
+		B111B06314C9F821001A8767 /* Wave.m in Sources */ = {isa = PBXBuildFile; fileRef = B111B06214C9F821001A8767 /* Wave.m */; };
+		B111B06614CA0FBD001A8767 /* DetailSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B111B06514CA0FBD001A8767 /* DetailSettingsTableViewController.m */; };
+		B11323F214E6CC47003F0B07 /* WaveTypeSelectorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B11323F114E6CC47003F0B07 /* WaveTypeSelectorTableViewController.m */; };
+		B1132CE514E8006B0007EC47 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B1132CE414E8006B0007EC47 /* Default-Portrait~ipad.png */; };
+		B1132CE714E800760007EC47 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B1132CE614E800760007EC47 /* Default-Landscape~ipad.png */; };
+		B1ACC4AA14C0BE8700C541D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ACC4A914C0BE8700C541D2 /* UIKit.framework */; };
+		B1ACC4AC14C0BE8700C541D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ACC4AB14C0BE8700C541D2 /* Foundation.framework */; };
+		B1ACC4AE14C0BE8700C541D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ACC4AD14C0BE8700C541D2 /* CoreGraphics.framework */; };
+		B1ACC4B014C0BE8700C541D2 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ACC4AF14C0BE8700C541D2 /* GLKit.framework */; };
+		B1ACC4B214C0BE8700C541D2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ACC4B114C0BE8700C541D2 /* OpenGLES.framework */; };
+		B1ACC4B814C0BE8700C541D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1ACC4B614C0BE8700C541D2 /* InfoPlist.strings */; };
+		B1ACC4BA14C0BE8700C541D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ACC4B914C0BE8700C541D2 /* main.m */; };
+		B1ACC4BE14C0BE8700C541D2 /* WaterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ACC4BD14C0BE8700C541D2 /* WaterAppDelegate.m */; };
+		B1ACC4C414C0BE8700C541D2 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1ACC4C214C0BE8700C541D2 /* MainStoryboard_iPad.storyboard */; };
+		B1ACC4C614C0BE8700C541D2 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B1ACC4C514C0BE8700C541D2 /* Shader.fsh */; };
+		B1ACC4C814C0BE8700C541D2 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B1ACC4C714C0BE8700C541D2 /* Shader.vsh */; };
+		B1ACC4CB14C0BE8700C541D2 /* WaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ACC4CA14C0BE8700C541D2 /* WaterViewController.m */; };
+		B1F9D6FB14CC5A0A002B0F71 /* waterTexture1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1F9D6FA14CC5A0A002B0F71 /* waterTexture1024.jpg */; };
+		B1F9D6FE14CC64A3002B0F71 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F9D6FD14CC64A2002B0F71 /* Icon-72.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B111B05D14C9F5D6001A8767 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		B111B05E14C9F5D6001A8767 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		B111B06114C9F821001A8767 /* Wave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wave.h; sourceTree = "<group>"; };
+		B111B06214C9F821001A8767 /* Wave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wave.m; sourceTree = "<group>"; };
+		B111B06414CA0FBD001A8767 /* DetailSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailSettingsTableViewController.h; sourceTree = "<group>"; };
+		B111B06514CA0FBD001A8767 /* DetailSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailSettingsTableViewController.m; sourceTree = "<group>"; };
+		B11323F014E6CC47003F0B07 /* WaveTypeSelectorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveTypeSelectorTableViewController.h; sourceTree = "<group>"; };
+		B11323F114E6CC47003F0B07 /* WaveTypeSelectorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveTypeSelectorTableViewController.m; sourceTree = "<group>"; };
+		B1132CE414E8006B0007EC47 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		B1132CE614E800760007EC47 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		B15678F914CB4BD00003CE7F /* Water3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Water3.h; sourceTree = SOURCE_ROOT; };
+		B18E80EE14C2191F00D0F773 /* ModelDataStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelDataStructures.h; sourceTree = "<group>"; };
+		B1ACC4A514C0BE8700C541D2 /* Water.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Water.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1ACC4A914C0BE8700C541D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1ACC4AB14C0BE8700C541D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1ACC4AD14C0BE8700C541D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B1ACC4AF14C0BE8700C541D2 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B1ACC4B114C0BE8700C541D2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B1ACC4B514C0BE8700C541D2 /* Water-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Water-Info.plist"; sourceTree = "<group>"; };
+		B1ACC4B714C0BE8700C541D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1ACC4B914C0BE8700C541D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1ACC4BB14C0BE8700C541D2 /* Water-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Water-Prefix.pch"; sourceTree = "<group>"; };
+		B1ACC4BC14C0BE8700C541D2 /* WaterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterAppDelegate.h; sourceTree = "<group>"; };
+		B1ACC4BD14C0BE8700C541D2 /* WaterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterAppDelegate.m; sourceTree = "<group>"; };
+		B1ACC4C314C0BE8700C541D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B1ACC4C514C0BE8700C541D2 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		B1ACC4C714C0BE8700C541D2 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		B1ACC4C914C0BE8700C541D2 /* WaterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterViewController.h; sourceTree = "<group>"; };
+		B1ACC4CA14C0BE8700C541D2 /* WaterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterViewController.m; sourceTree = "<group>"; };
+		B1F9D6FA14CC5A0A002B0F71 /* waterTexture1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waterTexture1024.jpg; sourceTree = "<group>"; };
+		B1F9D6FD14CC64A2002B0F71 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1ACC4A214C0BE8700C541D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1ACC4AA14C0BE8700C541D2 /* UIKit.framework in Frameworks */,
+				B1ACC4AC14C0BE8700C541D2 /* Foundation.framework in Frameworks */,
+				B1ACC4AE14C0BE8700C541D2 /* CoreGraphics.framework in Frameworks */,
+				B1ACC4B014C0BE8700C541D2 /* GLKit.framework in Frameworks */,
+				B1ACC4B214C0BE8700C541D2 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1132CE314E7FBE00007EC47 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				B1ACC4C714C0BE8700C541D2 /* Shader.vsh */,
+				B1ACC4C514C0BE8700C541D2 /* Shader.fsh */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		B14F760314E8013D00F606CD /* Default Images */ = {
+			isa = PBXGroup;
+			children = (
+				B1132CE614E800760007EC47 /* Default-Landscape~ipad.png */,
+				B1132CE414E8006B0007EC47 /* Default-Portrait~ipad.png */,
+			);
+			name = "Default Images";
+			sourceTree = "<group>";
+		};
+		B1ACC49A14C0BE8600C541D2 = {
+			isa = PBXGroup;
+			children = (
+				B14F760314E8013D00F606CD /* Default Images */,
+				B1ACC4B314C0BE8700C541D2 /* Water */,
+				B1ACC4A814C0BE8700C541D2 /* Frameworks */,
+				B1ACC4A614C0BE8700C541D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1ACC4A614C0BE8700C541D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1ACC4A514C0BE8700C541D2 /* Water.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1ACC4A814C0BE8700C541D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1ACC4A914C0BE8700C541D2 /* UIKit.framework */,
+				B1ACC4AB14C0BE8700C541D2 /* Foundation.framework */,
+				B1ACC4AD14C0BE8700C541D2 /* CoreGraphics.framework */,
+				B1ACC4AF14C0BE8700C541D2 /* GLKit.framework */,
+				B1ACC4B114C0BE8700C541D2 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1ACC4B314C0BE8700C541D2 /* Water */ = {
+			isa = PBXGroup;
+			children = (
+				B1ACC4BC14C0BE8700C541D2 /* WaterAppDelegate.h */,
+				B1ACC4BD14C0BE8700C541D2 /* WaterAppDelegate.m */,
+				B1ACC4C214C0BE8700C541D2 /* MainStoryboard_iPad.storyboard */,
+				B1132CE314E7FBE00007EC47 /* Shaders */,
+				B1ACC4C914C0BE8700C541D2 /* WaterViewController.h */,
+				B1ACC4CA14C0BE8700C541D2 /* WaterViewController.m */,
+				B111B05D14C9F5D6001A8767 /* SettingsTableViewController.h */,
+				B111B05E14C9F5D6001A8767 /* SettingsTableViewController.m */,
+				B111B06414CA0FBD001A8767 /* DetailSettingsTableViewController.h */,
+				B111B06514CA0FBD001A8767 /* DetailSettingsTableViewController.m */,
+				B11323F014E6CC47003F0B07 /* WaveTypeSelectorTableViewController.h */,
+				B11323F114E6CC47003F0B07 /* WaveTypeSelectorTableViewController.m */,
+				B111B06114C9F821001A8767 /* Wave.h */,
+				B111B06214C9F821001A8767 /* Wave.m */,
+				B15678F914CB4BD00003CE7F /* Water3.h */,
+				B1F6A96014E800CD0025535B /* Resources */,
+				B1ACC4B414C0BE8700C541D2 /* Supporting Files */,
+			);
+			path = Water;
+			sourceTree = "<group>";
+		};
+		B1ACC4B414C0BE8700C541D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1ACC4B514C0BE8700C541D2 /* Water-Info.plist */,
+				B1ACC4B614C0BE8700C541D2 /* InfoPlist.strings */,
+				B18E80EE14C2191F00D0F773 /* ModelDataStructures.h */,
+				B1ACC4B914C0BE8700C541D2 /* main.m */,
+				B1ACC4BB14C0BE8700C541D2 /* Water-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1F6A96014E800CD0025535B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1F9D6FA14CC5A0A002B0F71 /* waterTexture1024.jpg */,
+				B1F9D6FD14CC64A2002B0F71 /* Icon-72.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1ACC4A414C0BE8700C541D2 /* Water */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1ACC4CE14C0BE8700C541D2 /* Build configuration list for PBXNativeTarget "Water" */;
+			buildPhases = (
+				B1ACC4A114C0BE8700C541D2 /* Sources */,
+				B1ACC4A214C0BE8700C541D2 /* Frameworks */,
+				B1ACC4A314C0BE8700C541D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Water;
+			productName = Water;
+			productReference = B1ACC4A514C0BE8700C541D2 /* Water.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1ACC49C14C0BE8600C541D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B1ACC49F14C0BE8600C541D2 /* Build configuration list for PBXProject "Water" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B1ACC49A14C0BE8600C541D2;
+			productRefGroup = B1ACC4A614C0BE8700C541D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1ACC4A414C0BE8700C541D2 /* Water */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1ACC4A314C0BE8700C541D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1ACC4B814C0BE8700C541D2 /* InfoPlist.strings in Resources */,
+				B1ACC4C414C0BE8700C541D2 /* MainStoryboard_iPad.storyboard in Resources */,
+				B1ACC4C614C0BE8700C541D2 /* Shader.fsh in Resources */,
+				B1ACC4C814C0BE8700C541D2 /* Shader.vsh in Resources */,
+				B1F9D6FB14CC5A0A002B0F71 /* waterTexture1024.jpg in Resources */,
+				B1F9D6FE14CC64A3002B0F71 /* Icon-72.png in Resources */,
+				B1132CE514E8006B0007EC47 /* Default-Portrait~ipad.png in Resources */,
+				B1132CE714E800760007EC47 /* Default-Landscape~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1ACC4A114C0BE8700C541D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1ACC4BA14C0BE8700C541D2 /* main.m in Sources */,
+				B1ACC4BE14C0BE8700C541D2 /* WaterAppDelegate.m in Sources */,
+				B1ACC4CB14C0BE8700C541D2 /* WaterViewController.m in Sources */,
+				B111B05F14C9F5D6001A8767 /* SettingsTableViewController.m in Sources */,
+				B111B06314C9F821001A8767 /* Wave.m in Sources */,
+				B111B06614CA0FBD001A8767 /* DetailSettingsTableViewController.m in Sources */,
+				B11323F214E6CC47003F0B07 /* WaveTypeSelectorTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1ACC4B614C0BE8700C541D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1ACC4B714C0BE8700C541D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B1ACC4C214C0BE8700C541D2 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1ACC4C314C0BE8700C541D2 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1ACC4CC14C0BE8700C541D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Roman Smirnov (FJ5TFGGS5H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Roman Smirnov (FJ5TFGGS5H)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "07772296-94DB-4717-AF58-D44E9F3724F8";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "07772296-94DB-4717-AF58-D44E9F3724F8";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1ACC4CD14C0BE8700C541D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Roman Smirnov";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Roman Smirnov";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "1B9E1FDD-4E50-4CAB-B67D-091D61FDD623";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1B9E1FDD-4E50-4CAB-B67D-091D61FDD623";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1ACC4CF14C0BE8700C541D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Water/Water-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "Water/Water-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B1ACC4D014C0BE8700C541D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Water/Water-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "Water/Water-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1ACC49F14C0BE8600C541D2 /* Build configuration list for PBXProject "Water" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1ACC4CC14C0BE8700C541D2 /* Debug */,
+				B1ACC4CD14C0BE8700C541D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1ACC4CE14C0BE8700C541D2 /* Build configuration list for PBXNativeTarget "Water" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1ACC4CF14C0BE8700C541D2 /* Debug */,
+				B1ACC4D014C0BE8700C541D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1ACC49C14C0BE8600C541D2 /* Project object */;
+}

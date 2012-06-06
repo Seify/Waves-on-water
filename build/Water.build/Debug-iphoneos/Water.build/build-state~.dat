@@ -1,0 +1,532 @@
+TWater
+v4
+r1
+cCheck dependencies
+cCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/Water.app/ResourceRules.plist
+cProcessInfoPlistFile "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Info.plist" Water/Water-Info.plist
+cProcessPCH /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-ghqqbgqqyyjpoaccmdumrldivvcj/Water-Prefix.pch.pth Water/Water-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/main.o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/WaterAppDelegate.o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaterAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/WaterViewController.o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaterViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/SettingsTableViewController.o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/SettingsTableViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/Wave.o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/Wave.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/DetailSettingsTableViewController.o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/DetailSettingsTableViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/WaveTypeSelectorTableViewController.o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaveTypeSelectorTableViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Water" normal armv7
+cGenerateDSYMFile "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app.dSYM" "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Water"
+cCopyStringsFile "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/en.lproj/InfoPlist.strings" Water/en.lproj/InfoPlist.strings
+cCompileStoryboard "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/en.lproj/MainStoryboard_iPad.storyboard"
+cCpResource Water/Shaders/Shader.fsh build/Debug-iphoneos/Water.app/Shader.fsh
+cCpResource Water/Shaders/Shader.vsh build/Debug-iphoneos/Water.app/Shader.vsh
+cCpResource Water/waterTexture1024.jpg build/Debug-iphoneos/Water.app/waterTexture1024.jpg
+cCopyPNGFile "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Icon-72.png" Water/Icon-72.png
+cProcessProductPackaging "/Users/Seify/Library/MobileDevice/Provisioning Profiles/D7EE1804-200E-4938-928A-5CCA5429DCD4.mobileprovision" "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/embedded.mobileprovision"
+cProcessProductPackaging "/Users/Seify/Library/MobileDevice/Provisioning Profiles/D7EE1804-200E-4938-928A-5CCA5429DCD4.mobileprovision" "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/embedded.mobileprovision"
+cTouch "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water.xcent"
+cCodeSign "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+c000000004E7840290000000000000110
+t1316503593
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+c000000004E5C595800000000000001A7
+t1314675032
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+c000000004E5C595800000000000001E5
+t1314675032
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F28700000000003AB0A0
+t1316156039
+s3846304
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F3440000000000529540
+t1316156228
+s5412160
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/GLKit.framework/GLKit
+c000000004E7809580000000000049A50
+t1316489560
+s301648
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004E72F6E00000000000017190
+t1316157152
+s94608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7808C7000000000078BE50
+t1316489415
+s7913040
+
+N/Users/Seify/Library/MobileDevice/Provisioning Profiles/D7EE1804-200E-4938-928A-5CCA5429DCD4.mobileprovision
+c000000004ECBBA360000000000001D06
+t1321974326
+s7430
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/DetailSettingsTableViewController.m
+c000000004F378EA60000000000002B0C
+t1329041062
+s11020
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/Icon-72.png
+c000000004F37B40500000000000032E6
+t1329050629
+s13030
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/SettingsTableViewController.m
+c000000004F3676A3000000000000135C
+t1328969379
+s4956
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/Shaders/Shader.fsh
+c000000004F12DCA5000000000000012C
+t1326636197
+s300
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/Shaders/Shader.vsh
+c000000004F3677D000000000000022B2
+t1328969680
+s8882
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/Water-Prefix.pch
+c000000004F1087070000000000000139
+t1326483207
+s313
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaterAppDelegate.m
+c000000004F1087070000000000000853
+t1326483207
+s2131
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaterViewController.m
+c000000004F36770B0000000000005DCE
+t1328969483
+s24014
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/Wave.m
+c000000004F357A590000000000000131
+t1328904793
+s305
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaveTypeSelectorTableViewController.m
+c000000004F37884400000000000011CB
+t1329039428
+s4555
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/en.lproj/InfoPlist.strings
+c000000004F108707000000000000002D
+t1326483207
+s45
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/en.lproj/MainStoryboard_iPad.storyboard
+c000000004F1C208000000000000010BF
+t1327243392
+s4287
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/main.m
+c000000004F1087070000000000000161
+t1326483207
+s353
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/waterTexture1024.jpg
+c000000004F1C21FD0000000000061E0C
+t1327243773
+s400908
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app
+t2
+s0
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app.dSYM
+t2
+s0
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Icon-72.png
+t2
+s0
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Info.plist
+t2
+s0
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/PkgInfo
+t2
+s0
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/ResourceRules.plist
+t2
+s0
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Shader.fsh
+t2
+s0
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Shader.vsh
+t2
+s0
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Water
+t2
+s0
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/embedded.mobileprovision
+t2
+s0
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/en.lproj/MainStoryboard_iPad.storyboardc
+t2
+s0
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/waterTexture1024.jpg
+t2
+s0
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/DetailSettingsTableViewController.o
+t2
+s0
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/SettingsTableViewController.o
+t2
+s0
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/Water.LinkFileList
+c000000004F37B5600000000000000418
+t1329050976
+s1048
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/WaterAppDelegate.o
+t2
+s0
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/WaterViewController.o
+t2
+s0
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/Wave.o
+t2
+s0
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/WaveTypeSelectorTableViewController.o
+t2
+s0
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water.xcent
+t2
+s0
+
+N/var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-ghqqbgqqyyjpoaccmdumrldivvcj/Water-Prefix.pch.pth
+t2
+s0
+
+NWater/Water-Info.plist
+c000000004F1C3C960000000000000774
+t1327250582
+s1908
+
+CBuild AST from "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/DetailSettingsTableViewController.m"
+r0
+
+CBuild AST from "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/SettingsTableViewController.m"
+r0
+
+CBuild AST from "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaterAppDelegate.m"
+r0
+
+CBuild AST from "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaterViewController.m"
+r0
+
+CBuild AST from "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/Wave.m"
+r0
+
+CBuild AST from "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaveTypeSelectorTableViewController.m"
+r0
+
+CBuild AST from "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2d97c9e0ece7b441^17bbe5e0ece7b441^---0#1#0#--18"Check dependencies36"3121C5A4-7911-4303-95BA-A3D0C3028312-
+
+CCodeSign "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app"
+s350743787.725067
+e350743788.284160
+r1
+xCodeSign
+x/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"CodeSign build/Debug-iphoneos/Water.app0ccdb9ebece7b441^1abf48ecece7b441^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/build/Debug-iphoneos/Water.app/0000000000000000^782"CodeSign build/Debug-iphoneos/Water.app    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign "iPhone Developer: Roman Smirnov (FJ5TFGGS5H)" "--resource-rules=/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/ResourceRules.plist" --entitlements "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water.xcent" "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app"36"29E39E65-84B9-4505-830E-F44E5CCD9FB3-
+
+CCompileC build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/DetailSettingsTableViewController.o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/DetailSettingsTableViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350743778.608589
+e350743779.201550
+r1
+xCompileC
+xbuild/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/DetailSettingsTableViewController.o
+x/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/DetailSettingsTableViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/DetailSettingsTableViewController.m:108:2: warning: #warning Incomplete method implementation. [-W#warnings,7]
+o #warning Incomplete method implementation.
+o  ^
+o1 warning generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/DetailSettingsTableViewController.m04039ce2ece7b441^67b633e3ece7b441^-247"/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/DetailSettingsTableViewController.m:108:2: warning: #warning Incomplete method implementation. [-W#warnings,7] #warning Incomplete method implementation.  ^1 warning generated.1(21%IDEActivityLogMessage2@42"#warning Incomplete method implementation.-350743778#0#178#-1#-23%DVTTextDocumentLocation3@130"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/Water/DetailSettingsTableViewController.m0000000000000000^107#1#107#1#18446744073709551615#0#18"#warning Directive--0#0#0#-19%DVTDocumentLocation4@130"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/Water/DetailSettingsTableViewController.m0000000000000000^2803"CompileC build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/DetailSettingsTableViewController.o Water/DetailSettingsTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-generated-files.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-own-target-headers.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-all-target-headers.hmap" -iquote "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-project-headers.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/include" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/DerivedSources/armv7" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/DerivedSources" "-F/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos" -include /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-ghqqbgqqyyjpoaccmdumrldivvcj/Water-Prefix.pch -MMD -MT dependencies -MF "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/DetailSettingsTableViewController.d" -c "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/DetailSettingsTableViewController.m" -o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/DetailSettingsTableViewController.o"36"97188E83-BD6F-4787-AB0E-76A6D19A2351-
+
+CCompileC build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/SettingsTableViewController.o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/SettingsTableViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350743777.989242
+e350743778.421685
+r1
+xCompileC
+xbuild/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/SettingsTableViewController.o
+x/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/SettingsTableViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/SettingsTableViewController.m:84:2: warning: #warning Potentially incomplete method implementation. [-W#warnings,7]
+o #warning Potentially incomplete method implementation.
+o  ^
+o/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/SettingsTableViewController.m:91:2: warning: #warning Incomplete method implementation. [-W#warnings,7]
+o #warning Incomplete method implementation.
+o  ^
+o2 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/SettingsTableViewController.mab7afde1ece7b441^598a70e2ece7b441^-484"/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/SettingsTableViewController.m:84:2: warning: #warning Potentially incomplete method implementation. [-W#warnings,7] #warning Potentially incomplete method implementation.  ^/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/SettingsTableViewController.m:91:2: warning: #warning Incomplete method implementation. [-W#warnings,7] #warning Incomplete method implementation.  ^2 warnings generated.2(21%IDEActivityLogMessage2@54"#warning Potentially incomplete method implementation.-350743778#0#183#-1#-23%DVTTextDocumentLocation3@124"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/Water/SettingsTableViewController.m0000000000000000^83#1#83#1#18446744073709551615#0#18"#warning Directive--2@42"#warning Incomplete method implementation.-350743778#243#171#-1#-3@124"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/Water/SettingsTableViewController.m0000000000000000^90#1#90#1#18446744073709551615#0#18"#warning Directive--0#0#0#-19%DVTDocumentLocation4@124"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/Water/SettingsTableViewController.m0000000000000000^2773"CompileC build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/SettingsTableViewController.o Water/SettingsTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-generated-files.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-own-target-headers.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-all-target-headers.hmap" -iquote "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-project-headers.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/include" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/DerivedSources/armv7" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/DerivedSources" "-F/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos" -include /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-ghqqbgqqyyjpoaccmdumrldivvcj/Water-Prefix.pch -MMD -MT dependencies -MF "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/SettingsTableViewController.d" -c "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/SettingsTableViewController.m" -o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/SettingsTableViewController.o"36"59CFEBFA-AC50-41DA-AC21-AA0BC78A13DD-
+
+CCompileC build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/WaterAppDelegate.o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaterAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350743777.806727
+e350743777.983336
+r1
+xCompileC
+xbuild/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/WaterAppDelegate.o
+x/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaterAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaterAppDelegate.mf9bccee1ece7b441^8bc1fbe1ece7b441^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/Water/WaterAppDelegate.m0000000000000000^2718"CompileC build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/WaterAppDelegate.o Water/WaterAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-generated-files.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-own-target-headers.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-all-target-headers.hmap" -iquote "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-project-headers.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/include" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/DerivedSources/armv7" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/DerivedSources" "-F/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos" -include /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-ghqqbgqqyyjpoaccmdumrldivvcj/Water-Prefix.pch -MMD -MT dependencies -MF "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/WaterAppDelegate.d" -c "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaterAppDelegate.m" -o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/WaterAppDelegate.o"36"CFF63645-3398-430C-BDB2-1D1163EB103E-
+
+CCompileC build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/WaterViewController.o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaterViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350743777.980042
+e350743786.900826
+r1
+xCompileC
+xbuild/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/WaterViewController.o
+x/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaterViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaterViewController.m:68:1: warning: incomplete implementation [-Wincomplete-implementation,3]
+o @implementation WaterViewController
+o ^
+o/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaterViewController.h:29:1: note: method definition for 'sombreroPressed:' not found [3]
+o - (IBAction)sombreroPressed:(id)sender;
+o ^
+o1 warning generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaterViewController.m0f47fbe1ece7b441^4a9be6eaece7b441^-423"/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaterViewController.m:68:1: warning: incomplete implementation [-Wincomplete-implementation,3] @implementation WaterViewController ^/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaterViewController.h:29:1: note: method definition for 'sombreroPressed:' not found [3] - (IBAction)sombreroPressed:(id)sender; ^1 warning generated.1(21%IDEActivityLogMessage2@25"Incomplete implementation-350743783#0#162#1(2@50"Method definition for 'sombreroPressed:' not found-350743783#202#156#-0#-23%DVTTextDocumentLocation3@116"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/Water/WaterViewController.h0000000000000000^28#0#28#0#18446744073709551615#0#14"Semantic Issue--1#-3@116"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/Water/WaterViewController.m0000000000000000^67#0#67#0#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@116"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/Water/WaterViewController.m0000000000000000^2733"CompileC build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/WaterViewController.o Water/WaterViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-generated-files.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-own-target-headers.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-all-target-headers.hmap" -iquote "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-project-headers.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/include" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/DerivedSources/armv7" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/DerivedSources" "-F/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos" -include /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-ghqqbgqqyyjpoaccmdumrldivvcj/Water-Prefix.pch -MMD -MT dependencies -MF "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/WaterViewController.d" -c "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaterViewController.m" -o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/WaterViewController.o"36"71317D94-8725-437E-A379-0CD60AB656B0-
+
+CCompileC build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/Wave.o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/Wave.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350743778.423439
+e350743778.607160
+r1
+xCompileC
+xbuild/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/Wave.o
+x/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/Wave.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/Wave.m5fb76ce2ece7b441^3771b2e2ece7b441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/Water/Wave.m0000000000000000^2658"CompileC build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/Wave.o Water/Wave.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-generated-files.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-own-target-headers.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-all-target-headers.hmap" -iquote "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-project-headers.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/include" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/DerivedSources/armv7" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/DerivedSources" "-F/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos" -include /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-ghqqbgqqyyjpoaccmdumrldivvcj/Water-Prefix.pch -MMD -MT dependencies -MF "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/Wave.d" -c "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/Wave.m" -o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/Wave.o"36"35C7CFB1-DE36-41EF-8CE8-D5A800A595BB-
+
+CCompileC build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/WaveTypeSelectorTableViewController.o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaveTypeSelectorTableViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350743779.203194
+e350743779.718537
+r1
+xCompileC
+xbuild/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/WaveTypeSelectorTableViewController.o
+x/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaveTypeSelectorTableViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaveTypeSelectorTableViewController.mde3934e3ece7b441^8604b8e3ece7b441^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/Water/WaveTypeSelectorTableViewController.m0000000000000000^2813"CompileC build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/WaveTypeSelectorTableViewController.o Water/WaveTypeSelectorTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-generated-files.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-own-target-headers.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-all-target-headers.hmap" -iquote "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-project-headers.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/include" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/DerivedSources/armv7" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/DerivedSources" "-F/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos" -include /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-ghqqbgqqyyjpoaccmdumrldivvcj/Water-Prefix.pch -MMD -MT dependencies -MF "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/WaveTypeSelectorTableViewController.d" -c "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/WaveTypeSelectorTableViewController.m" -o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/WaveTypeSelectorTableViewController.o"36"56C2B503-212A-47A3-AC75-0A74E2A942B0-
+
+CCompileC build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/main.o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350743777.806722
+e350743777.975158
+r1
+xCompileC
+xbuild/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/main.o
+x/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/main.m4dbdcee1ece7b441^0abaf9e1ece7b441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/Water/main.m0000000000000000^2658"CompileC build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/main.o Water/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-generated-files.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-own-target-headers.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-all-target-headers.hmap" -iquote "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-project-headers.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/include" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/DerivedSources/armv7" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/DerivedSources" "-F/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos" -include /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-ghqqbgqqyyjpoaccmdumrldivvcj/Water-Prefix.pch -MMD -MT dependencies -MF "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/main.d" -c "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/main.m" -o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/main.o"36"297A28F9-C898-4799-B599-AD22D688D2CE-
+
+CCompileStoryboard "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/en.lproj/MainStoryboard_iPad.storyboard"
+s350743787.299221
+e350743787.482894
+r1
+xCompileStoryboard
+x/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/en.lproj/MainStoryboard_iPad.storyboard
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"CompileStoryboard Water/en.lproj/MainStoryboard_iPad.storyboard3acb4cebece7b441^3d9d7bebece7b441^-1428"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)-0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/Water/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^792"CompileStoryboard Water/en.lproj/MainStoryboard_iPad.storyboard    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/en.lproj/MainStoryboard_iPad.storyboardc" "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/en.lproj/MainStoryboard_iPad.storyboard" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"60D0435E-3941-4ADF-95AA-BC4F4509D02C-
+
+CCopyPNGFile "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Icon-72.png" Water/Icon-72.png
+s350743787.381291
+e350743787.653258
+r1
+xCopyPNGFile
+x/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Icon-72.png
+xWater/Icon-72.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"CopyPNGFile build/Debug-iphoneos/Water.app/Icon-72.png Water/Icon-72.png69c361ebece7b441^4565a7ebece7b441^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/Water/Icon-72.png0000000000000000^617"CopyPNGFile build/Debug-iphoneos/Water.app/Icon-72.png Water/Icon-72.png    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/Icon-72.png" "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Icon-72.png"36"3104F17C-D7FB-4EB0-AB18-3E8FAAD5488B-
+
+CCopyStringsFile "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/en.lproj/InfoPlist.strings" Water/en.lproj/InfoPlist.strings
+s350743787.298763
+e350743787.312987
+r1
+xCopyStringsFile
+x/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/en.lproj/InfoPlist.strings
+xWater/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy Water/en.lproj/InfoPlist.strings09a84cebece7b441^cb6450ebece7b441^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/Water/en.lproj/InfoPlist.strings0000000000000000^530"CopyStringsFile build/Debug-iphoneos/Water.app/en.lproj/InfoPlist.strings Water/en.lproj/InfoPlist.strings    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/en.lproj" -- Water/en.lproj/InfoPlist.strings36"2565D305-959E-4BD5-9FA1-AF6403AF9463-
+
+CCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/Water.app/ResourceRules.plist
+s350743776.905409
+e350743776.912284
+r1
+xCpResource
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/Water.app/ResourceRules.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphoneos/Water.app/ResourceRules.plist13f0e7e0ece7b441^2219eae0ece7b441^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/build/Debug-iphoneos/Water.app/ResourceRules.plist00f450dddfffdf42^642"CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/Water.app/ResourceRules.plist    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app"36"8C3ECFD8-95F2-4FE0-BF08-FFFBFFC59F28-
+
+CCpResource Water/Shaders/Shader.fsh build/Debug-iphoneos/Water.app/Shader.fsh
+s350743787.314311
+e350743787.320153
+r1
+xCpResource
+xWater/Shaders/Shader.fsh
+xbuild/Debug-iphoneos/Water.app/Shader.fsh
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/Debug-iphoneos/Water.app/Shader.fsh48c450ebece7b441^6b0c52ebece7b441^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/build/Debug-iphoneos/Water.app/Shader.fsh00f450dddfffdf42^566"CpResource Water/Shaders/Shader.fsh build/Debug-iphoneos/Water.app/Shader.fsh    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/Shaders/Shader.fsh" "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app"36"7E625C04-2351-41FB-ADDD-4EBCBCB944D0-
+
+CCpResource Water/Shaders/Shader.vsh build/Debug-iphoneos/Water.app/Shader.vsh
+s350743787.321560
+e350743787.338830
+r1
+xCpResource
+xWater/Shaders/Shader.vsh
+xbuild/Debug-iphoneos/Water.app/Shader.vsh
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/Debug-iphoneos/Water.app/Shader.vsh0b7b52ebece7b441^8cbe56ebece7b441^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/build/Debug-iphoneos/Water.app/Shader.vsh00f450dddfffdf42^566"CpResource Water/Shaders/Shader.vsh build/Debug-iphoneos/Water.app/Shader.vsh    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/Shaders/Shader.vsh" "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app"36"7F50F9C9-0613-440B-A3A9-E7AF542A9FAE-
+
+CCpResource Water/waterTexture1024.jpg build/Debug-iphoneos/Water.app/waterTexture1024.jpg
+s350743787.340317
+e350743787.379379
+r1
+xCpResource
+xWater/waterTexture1024.jpg
+xbuild/Debug-iphoneos/Water.app/waterTexture1024.jpg
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphoneos/Water.app/waterTexture1024.jpge44857ebece7b441^db3161ebece7b441^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/build/Debug-iphoneos/Water.app/waterTexture1024.jpg00f450dddfffdf42^580"CpResource Water/waterTexture1024.jpg build/Debug-iphoneos/Water.app/waterTexture1024.jpg    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/waterTexture1024.jpg" "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app"36"471ED001-B724-4493-82E6-BFAFC32C25C6-
+
+CGenerateDSYMFile "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app.dSYM" "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Water"
+s350743787.204791
+e350743787.288921
+r1
+xGenerateDSYMFile
+x/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app.dSYM
+x/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Water
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Generating /Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app.dSYM789a34ebece7b441^880d4aebece7b441^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/build/Debug-iphoneos/Water.app.dSYM00f450dddfffdf42^518"GenerateDSYMFile build/Debug-iphoneos/Water.app.dSYM build/Debug-iphoneos/Water.app/Water    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Water" -o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app.dSYM"36"241CFF8B-0C89-4ABC-9E8D-6CD900CA18C3-
+
+CLd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Water" normal armv7
+s350743786.907832
+e350743787.197905
+r1
+xLd
+x/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Water
+xnormal
+xarmv7
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Link /Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Waterefe3e8eaece7b441^a7b032ebece7b441^---0#0#0#--1031"Ld build/Debug-iphoneos/Water.app/Water normal armv7    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk "-L/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos" "-F/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos" -filelist "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Objects-normal/armv7/Water.LinkFileList" -dead_strip -fobjc-arc -miphoneos-version-min=5.0 -framework UIKit -framework Foundation -framework CoreGraphics -framework GLKit -framework OpenGLES -o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Water"36"73017498-EBB4-4222-992B-162C945D0408-
+
+CProcessInfoPlistFile "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Info.plist" Water/Water-Info.plist
+s350743776.905543
+e350743776.912080
+r1
+xProcessInfoPlistFile
+x/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Info.plist
+xWater/Water-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process Water/Water-Info.plist2cf2e7e0ece7b441^4910eae0ece7b441^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/Water/Water-Info.plist0000000000000000^742"ProcessInfoPlistFile build/Debug-iphoneos/Water.app/Info.plist Water/Water-Info.plist    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Water/Water-Info.plist -genpkginfo "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/ResourceRules.plist" -o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/Info.plist"36"C265A2A7-3882-4DF3-99B6-271A91C27BFA-
+
+CProcessPCH /Users/Seify/Library/Developer/Xcode/DerivedData/Water-frzhxpdrnfvzhdgznikxowrhjcma/Index/PrecompiledHeaders/Water-Prefix-gnzafbblfrcpobacyvsbdqwjvfpb_ast/Water-Prefix.pch.pth Water/Water-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-ghqqbgqqyyjpoaccmdumrldivvcj/Water-Prefix.pch.pth Water/Water-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350743776.920452
+e350743777.798945
+r1
+xProcessPCH
+x/var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-ghqqbgqqyyjpoaccmdumrldivvcj/Water-Prefix.pch.pth
+xWater/Water-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile Water/Water-Prefix.pch02d5ebe0ece7b441^c8b2cce1ece7b441^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/Water/Water-Prefix.pch0000000000000000^2649"ProcessPCH /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-ghqqbgqqyyjpoaccmdumrldivvcj/Water-Prefix.pch.pth Water/Water-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-generated-files.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-own-target-headers.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-all-target-headers.hmap" -iquote "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water-project-headers.hmap" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/include" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/DerivedSources/armv7" "-I/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/DerivedSources" "-F/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos" -c "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/Water/Water-Prefix.pch" -o /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-ghqqbgqqyyjpoaccmdumrldivvcj/Water-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-ghqqbgqqyyjpoaccmdumrldivvcj/Water-Prefix.pch.d36"787CF598-AA9B-4933-87AF-175B5E18C8A0-
+
+CProcessProductPackaging "/Users/Seify/Library/MobileDevice/Provisioning Profiles/D7EE1804-200E-4938-928A-5CCA5429DCD4.mobileprovision" "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/embedded.mobileprovision"
+s350743787.675942
+e350743787.680919
+r1
+xProcessProductPackaging
+x/Users/Seify/Library/MobileDevice/Provisioning Profiles/D7EE1804-200E-4938-928A-5CCA5429DCD4.mobileprovision
+x/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/embedded.mobileprovision
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection190"ProcessProductPackaging "/Users/Seify/Library/MobileDevice/Provisioning Profiles/D7EE1804-200E-4938-928A-5CCA5429DCD4.mobileprovision" build/Debug-iphoneos/Water.app/embedded.mobileprovision9c4fadebece7b441^b763aeebece7b441^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/build/Debug-iphoneos/Water.app/embedded.mobileprovision0000000000000000^654"ProcessProductPackaging "/Users/Seify/Library/MobileDevice/Provisioning Profiles/D7EE1804-200E-4938-928A-5CCA5429DCD4.mobileprovision" build/Debug-iphoneos/Water.app/embedded.mobileprovision    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/Seify/Library/MobileDevice/Provisioning Profiles/D7EE1804-200E-4938-928A-5CCA5429DCD4.mobileprovision" -o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app/embedded.mobileprovision"36"A2697E8A-5C2C-4837-8A0B-05EFF6D1BAAE-
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water.xcent"
+s350743787.710194
+e350743787.716188
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+x/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water.xcent
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection169"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/Water.build/Debug-iphoneos/Water.build/Water.xcent7905b6ebece7b441^6d6fb7ebece7b441^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Volumes/Ext%20HDD%201Gb/Xcode%20projects/Water/Waves%20on%20water%201.1/build/Water.build/Debug-iphoneos/Water.build/Water.xcent00f450dddfffdf42^638"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/Water.build/Debug-iphoneos/Water.build/Water.xcent    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist -entitlements -format xml -o "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Water.build/Debug-iphoneos/Water.build/Water.xcent"36"A4B26609-1618-4CD9-B9AD-02AE53FF8CFC-
+
+CTouch "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app"
+s350743787.689949
+e350743787.701215
+r1
+xTouch
+x/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Touch /Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app98bdb0ebece7b441^6897b3ebece7b441^---0#0#0#--347"Touch build/Debug-iphoneos/Water.app    cd "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Volumes/Ext HDD 1Gb/Xcode projects/Water/Waves on water 1.1/build/Debug-iphoneos/Water.app"36"58FA704E-54DE-4271-9BF7-2A07217B24F9-
+

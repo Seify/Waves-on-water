@@ -1,0 +1,371 @@
+TWater
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/Info.plist" Water/Water-Info.plist
+cProcessPCH /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-epmrpxxxkajfivgooxdqhbxnnaqz/Water-Prefix.pch.pth Water/Water-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/WaterAppDelegate.o "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/WaterAppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/main.o "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/WaterViewController.o "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/WaterViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/Water" normal i386
+cGenerateDSYMFile "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app.dSYM" "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/Water"
+cCompileStoryboard "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/en.lproj/MainStoryboard_iPad.storyboard"
+cCopyStringsFile "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/en.lproj/InfoPlist.strings" Water/en.lproj/InfoPlist.strings
+cCompileStoryboard "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/en.lproj/MainStoryboard_iPhone.storyboard"
+cCpResource Water/Shaders/Shader.fsh build/Debug-iphonesimulator/Water.app/Shader.fsh
+cCpResource Water/Shaders/Shader.vsh build/Debug-iphonesimulator/Water.app/Shader.vsh
+cCpResource Water/waterTexture.png build/Debug-iphonesimulator/Water.app/waterTexture.png
+cTouch "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004E9700F70000000000000110
+t1318519031
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F1CC0000000000245480
+t1316155852
+s2380928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F2960000000000353830
+t1316156054
+s3487792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/GLKit.framework/GLKit
+c000000004E780781000000000005A830
+t1316489089
+s370736
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004E72F52C000000000001D2E0
+t1316156716
+s119520
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7806AB00000000008F7390
+t1316488875
+s9401232
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/ModelDataStructures.h
+c000000004EA03C8100000000000003D0
+t1319124097
+s976
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/Shaders/Shader.fsh
+c000000004F12DCA5000000000000012C
+t1326636197
+s300
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/Shaders/Shader.vsh
+c000000004F1331060000000000000769
+t1326657798
+s1897
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/Water-Prefix.pch
+c000000004F1087070000000000000139
+t1326483207
+s313
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/Water.h
+c000000004F11E1DD000000000061616E
+t1326571997
+s6381934
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/WaterAppDelegate.h
+c000000004F1087070000000000000126
+t1326483207
+s294
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/WaterAppDelegate.m
+c000000004F1087070000000000000853
+t1326483207
+s2131
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/WaterViewController.h
+c000000004F19B96A000000000000024D
+t1327085930
+s589
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/WaterViewController.m
+c000000004F19BB0400000000000047E2
+t1327086340
+s18402
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/en.lproj/InfoPlist.strings
+c000000004F108707000000000000002D
+t1326483207
+s45
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/en.lproj/MainStoryboard_iPad.storyboard
+c000000004F19B7AE0000000000000FCB
+t1327085486
+s4043
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/en.lproj/MainStoryboard_iPhone.storyboard
+c000000004F133106000000000000067F
+t1326657798
+s1663
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/main.m
+c000000004F1087070000000000000161
+t1326483207
+s353
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/waterTexture.png
+c000000004F120EE900000000000A996F
+t1326583529
+s694639
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app
+t1326664278
+s306
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app.dSYM
+t1326664276
+s102
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/Info.plist
+t1326664268
+s960
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/PkgInfo
+t1326664268
+s8
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/Shader.fsh
+t1326664278
+s300
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/Shader.vsh
+t1326664278
+s1897
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/Water
+t1326664276
+s1933156
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/en.lproj/InfoPlist.strings
+t1326664276
+s42
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/en.lproj/MainStoryboard_iPad.storyboardc
+t1326664278
+s272
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t1326664278
+s170
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/waterTexture.png
+t1326664278
+s694639
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/Water.LinkFileList
+c000000004F134A4C0000000000000186
+t1326664268
+s390
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/WaterAppDelegate.o
+t1326664271
+s49728
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/WaterViewController.o
+t1326664274
+s1975956
+
+N/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/main.o
+t1326664271
+s2728
+
+N/var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-epmrpxxxkajfivgooxdqhbxnnaqz/Water-Prefix.pch.pth
+t1326664271
+s3914764
+
+NWater/Water-Info.plist
+c000000004F13149D00000000000005F3
+t1326650525
+s1523
+
+CBuild AST from "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/WaterAppDelegate.m"
+r0
+
+CBuild AST from "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/WaterViewController.m"
+r0
+
+CBuild AST from "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies3be37384f2c9b441^e04ab687f2c9b441^---0#1#0#--18"Check dependencies36"163742BA-5BBE-4437-B10D-55890D074402-
+
+CCompileC build/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/WaterAppDelegate.o "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/WaterAppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s348357071.452134
+e348357071.885186
+r1
+xCompileC
+xbuild/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/WaterAppDelegate.o
+x/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/WaterAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/WaterAppDelegate.md67174cf81c3b441^5f9ae2cf81c3b441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Volumes/Ext%201Tb%20HDD/Xcode%20projects/Water/Water/WaterAppDelegate.m0000000000000000^2691"CompileC build/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/WaterAppDelegate.o Water/WaterAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Ext 1Tb HDD/Xcode projects/Water"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Water-generated-files.hmap" "-I/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Water-own-target-headers.hmap" "-I/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Water-all-target-headers.hmap" -iquote "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Water-project-headers.hmap" "-I/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/include" "-I/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/DerivedSources/i386" "-I/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/DerivedSources" "-F/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator" -include /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-epmrpxxxkajfivgooxdqhbxnnaqz/Water-Prefix.pch -MMD -MT dependencies -MF "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/WaterAppDelegate.d" -c "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/WaterAppDelegate.m" -o "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/WaterAppDelegate.o"36"E3DF3F54-A412-46FF-92C4-DA4BFC1C1DC4-
+
+CCompileC build/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/WaterViewController.o "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/WaterViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s348779143.832297
+e348779152.541152
+r1
+xCompileC
+xbuild/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/WaterViewController.o
+x/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/WaterViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/WaterViewController.m:57:1: warning: incomplete implementation [-Wincomplete-implementation,3]
+o @implementation WaterViewController
+o ^
+o/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/WaterViewController.h:27:1: note: method definition for 'sombreroPressed:' not found [3]
+o - (IBAction)sombreroPressed:(id)sender;
+o ^
+o1 warning generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/WaterViewController.m664cd587f2c9b441^c2878a90f2c9b441^-385"/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/WaterViewController.m:57:1: warning: incomplete implementation [-Wincomplete-implementation,3] @implementation WaterViewController ^/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/WaterViewController.h:27:1: note: method definition for 'sombreroPressed:' not found [3] - (IBAction)sombreroPressed:(id)sender; ^1 warning generated.1(21%IDEActivityLogMessage2@25"Incomplete implementation-348779151#0#143#1(2@50"Method definition for 'sombreroPressed:' not found-348779151#183#137#-0#-23%DVTTextDocumentLocation3@91"file://localhost/Volumes/Ext%201Tb%20HDD/Xcode%20projects/Water/Water/WaterViewController.h0000000000000000^26#0#26#0#18446744073709551615#0#14"Semantic Issue--1#-3@91"file://localhost/Volumes/Ext%201Tb%20HDD/Xcode%20projects/Water/Water/WaterViewController.m0000000000000000^56#0#56#0#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@91"file://localhost/Volumes/Ext%201Tb%20HDD/Xcode%20projects/Water/Water/WaterViewController.m0000000000000000^2706"CompileC build/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/WaterViewController.o Water/WaterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Ext 1Tb HDD/Xcode projects/Water"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Water-generated-files.hmap" "-I/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Water-own-target-headers.hmap" "-I/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Water-all-target-headers.hmap" -iquote "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Water-project-headers.hmap" "-I/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/include" "-I/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/DerivedSources/i386" "-I/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/DerivedSources" "-F/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator" -include /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-epmrpxxxkajfivgooxdqhbxnnaqz/Water-Prefix.pch -MMD -MT dependencies -MF "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/WaterViewController.d" -c "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/WaterViewController.m" -o "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/WaterViewController.o"36"E9F6D79F-6BC2-4B96-B28A-2E4516C33A94-
+
+CCompileC build/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/main.o "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s348357071.452098
+e348357071.882388
+r1
+xCompileC
+xbuild/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/main.o
+x/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/main.m365874cf81c3b441^d3f4e1cf81c3b441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Volumes/Ext%201Tb%20HDD/Xcode%20projects/Water/Water/main.m0000000000000000^2631"CompileC build/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/main.o Water/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Ext 1Tb HDD/Xcode projects/Water"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Water-generated-files.hmap" "-I/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Water-own-target-headers.hmap" "-I/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Water-all-target-headers.hmap" -iquote "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Water-project-headers.hmap" "-I/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/include" "-I/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/DerivedSources/i386" "-I/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/DerivedSources" "-F/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator" -include /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-epmrpxxxkajfivgooxdqhbxnnaqz/Water-Prefix.pch -MMD -MT dependencies -MF "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/main.d" -c "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/main.m" -o "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/main.o"36"1FB4811D-BBAD-4F29-BCD6-66425CAD55A7-
+
+CCompileStoryboard "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/en.lproj/MainStoryboard_iPad.storyboard"
+s348779153.996610
+e348779159.434103
+r1
+xCompileStoryboard
+x/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/en.lproj/MainStoryboard_iPad.storyboard
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"CompileStoryboard Water/en.lproj/MainStoryboard_iPad.storyboard3f38ff91f2c9b441^81216f97f2c9b441^-1596"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)-0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Volumes/Ext%201Tb%20HDD/Xcode%20projects/Water/Water/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^763"CompileStoryboard Water/en.lproj/MainStoryboard_iPad.storyboard    cd "/Volumes/Ext 1Tb HDD/Xcode projects/Water"    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/en.lproj/MainStoryboard_iPad.storyboardc" "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/en.lproj/MainStoryboard_iPad.storyboard" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"64DFFC8A-11D7-41B2-B2C4-8A0B8BDD3083-
+
+CCompileStoryboard "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/en.lproj/MainStoryboard_iPhone.storyboard"
+s348357076.322349
+e348357078.456218
+r1
+xCompileStoryboard
+x/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/en.lproj/MainStoryboard_iPhone.storyboard
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"CompileStoryboard Water/en.lproj/MainStoryboard_iPhone.storyboard38d952d481c3b441^43c974d681c3b441^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Volumes/Ext%201Tb%20HDD/Xcode%20projects/Water/Water/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^769"CompileStoryboard Water/en.lproj/MainStoryboard_iPhone.storyboard    cd "/Volumes/Ext 1Tb HDD/Xcode projects/Water"    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/en.lproj/MainStoryboard_iPhone.storyboardc" "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/en.lproj/MainStoryboard_iPhone.storyboard" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"A66DC1A3-D179-4FDD-B681-A0BBABF50142-
+
+CCopyStringsFile "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/en.lproj/InfoPlist.strings" Water/en.lproj/InfoPlist.strings
+s348357076.322479
+e348357076.375591
+r1
+xCopyStringsFile
+x/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/en.lproj/InfoPlist.strings
+xWater/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy Water/en.lproj/InfoPlist.stringsa8e252d481c3b441^142660d481c3b441^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Volumes/Ext%201Tb%20HDD/Xcode%20projects/Water/Water/en.lproj/InfoPlist.strings0000000000000000^513"CopyStringsFile build/Debug-iphonesimulator/Water.app/en.lproj/InfoPlist.strings Water/en.lproj/InfoPlist.strings    cd "/Volumes/Ext 1Tb HDD/Xcode projects/Water"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/en.lproj" -- Water/en.lproj/InfoPlist.strings36"294DA1AD-D658-4EF9-A70C-758FE4B3A87E-
+
+CCpResource Water/Shaders/Shader.fsh build/Debug-iphonesimulator/Water.app/Shader.fsh
+s348357078.457998
+e348357078.584554
+r1
+xCpResource
+xWater/Shaders/Shader.fsh
+xbuild/Debug-iphonesimulator/Water.app/Shader.fsh
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/Debug-iphonesimulator/Water.app/Shader.fshda8e75d681c3b441^f0a495d681c3b441^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Volumes/Ext%201Tb%20HDD/Xcode%20projects/Water/build/Debug-iphonesimulator/Water.app/Shader.fsh00f4ac36dcffdf42^530"CpResource Water/Shaders/Shader.fsh build/Debug-iphonesimulator/Water.app/Shader.fsh    cd "/Volumes/Ext 1Tb HDD/Xcode projects/Water"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/Shaders/Shader.fsh" "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app"36"971AB8BC-B034-45B9-9453-4935E239715C-
+
+CCpResource Water/Shaders/Shader.vsh build/Debug-iphonesimulator/Water.app/Shader.vsh
+s348357078.458241
+e348357078.519845
+r1
+xCpResource
+xWater/Shaders/Shader.vsh
+xbuild/Debug-iphonesimulator/Water.app/Shader.vsh
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/Debug-iphonesimulator/Water.app/Shader.vsh598975d681c3b441^142185d681c3b441^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Volumes/Ext%201Tb%20HDD/Xcode%20projects/Water/build/Debug-iphonesimulator/Water.app/Shader.vsh00f4ac36dcffdf42^530"CpResource Water/Shaders/Shader.vsh build/Debug-iphonesimulator/Water.app/Shader.vsh    cd "/Volumes/Ext 1Tb HDD/Xcode projects/Water"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/Shaders/Shader.vsh" "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app"36"85A3FDBE-29D6-44D6-AACA-20114B84AAC0-
+
+CCpResource Water/waterTexture.png build/Debug-iphonesimulator/Water.app/waterTexture.png
+s348357078.521342
+e348357078.624580
+r1
+xCpResource
+xWater/waterTexture.png
+xbuild/Debug-iphonesimulator/Water.app/waterTexture.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/Water.app/waterTexture.png5da385d681c3b441^3eea9fd681c3b441^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Volumes/Ext%201Tb%20HDD/Xcode%20projects/Water/build/Debug-iphonesimulator/Water.app/waterTexture.png00f4ac36dcffdf42^532"CpResource Water/waterTexture.png build/Debug-iphonesimulator/Water.app/waterTexture.png    cd "/Volumes/Ext 1Tb HDD/Xcode projects/Water"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/waterTexture.png" "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app"36"71B06D6A-7F6D-4DCB-9E90-A595F07FB850-
+
+CGenerateDSYMFile "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app.dSYM" "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/Water"
+s348779153.837995
+e348779153.988847
+r1
+xGenerateDSYMFile
+x/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app.dSYM
+x/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/Water
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Generating /Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app.dSYM249cd691f2c9b441^8d24fd91f2c9b441^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Volumes/Ext%201Tb%20HDD/Xcode%20projects/Water/build/Debug-iphonesimulator/Water.app.dSYM/0000000000000000^496"GenerateDSYMFile build/Debug-iphonesimulator/Water.app.dSYM build/Debug-iphonesimulator/Water.app/Water    cd "/Volumes/Ext 1Tb HDD/Xcode projects/Water"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/Water" -o "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app.dSYM"36"84992AFC-E08C-4FC4-8FA8-A61620BE8957-
+
+CLd "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/Water" normal i386
+s348779152.548243
+e348779153.831232
+r1
+xLd
+x/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/Water
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Link /Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/Water66838c90f2c9b441^3acbd491f2c9b441^---0#0#0#--1090"Ld build/Debug-iphonesimulator/Water.app/Water normal i386    cd "/Volumes/Ext 1Tb HDD/Xcode projects/Water"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk "-L/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator" "-F/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator" -filelist "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Objects-normal/i386/Water.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -framework UIKit -framework Foundation -framework CoreGraphics -framework GLKit -framework OpenGLES -o "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/Water"36"7F34A3A9-3270-4DA8-B2A2-46944175B618-
+
+CProcessInfoPlistFile "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/Info.plist" Water/Water-Info.plist
+s348357068.801081
+e348357068.831343
+r1
+xProcessInfoPlistFile
+x/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/Info.plist
+xWater/Water-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process Water/Water-Info.plistd87fcdcc81c3b441^3255e4cc81c3b441^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Volumes/Ext%201Tb%20HDD/Xcode%20projects/Water/Water/Water-Info.plist0000000000000000^587"ProcessInfoPlistFile build/Debug-iphonesimulator/Water.app/Info.plist Water/Water-Info.plist    cd "/Volumes/Ext 1Tb HDD/Xcode projects/Water"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Water/Water-Info.plist -genpkginfo "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app/Info.plist"36"07E6F24A-237A-48A7-93D4-3F32965B0A7D-
+
+CProcessPCH /Users/Seify/Library/Developer/Xcode/DerivedData/Water-gkbwobaniygogphjhhiosinsmdsd/Index/PrecompiledHeaders/Water-Prefix-cjyrokbkyvtkylaplfnsudjbxiie_ast/Water-Prefix.pch.pth Water/Water-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-epmrpxxxkajfivgooxdqhbxnnaqz/Water-Prefix.pch.pth Water/Water-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s348357068.839778
+e348357071.445067
+r1
+xProcessPCH
+x/var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-epmrpxxxkajfivgooxdqhbxnnaqz/Water-Prefix.pch.pth
+xWater/Water-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile Water/Water-Prefix.pchd141d7cc81c3b441^a5f771cf81c3b441^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Volumes/Ext%201Tb%20HDD/Xcode%20projects/Water/Water/Water-Prefix.pch0000000000000000^2642"ProcessPCH /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-epmrpxxxkajfivgooxdqhbxnnaqz/Water-Prefix.pch.pth Water/Water-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Ext 1Tb HDD/Xcode projects/Water"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Water-generated-files.hmap" "-I/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Water-own-target-headers.hmap" "-I/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Water-all-target-headers.hmap" -iquote "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/Water-project-headers.hmap" "-I/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/include" "-I/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/DerivedSources/i386" "-I/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Water.build/Debug-iphonesimulator/Water.build/DerivedSources" "-F/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator" -c "/Volumes/Ext 1Tb HDD/Xcode projects/Water/Water/Water-Prefix.pch" -o /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-epmrpxxxkajfivgooxdqhbxnnaqz/Water-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Water-Prefix-epmrpxxxkajfivgooxdqhbxnnaqz/Water-Prefix.pch.d36"2E11DB64-5576-4892-A5C5-DCEB6243CBDC-
+
+CTouch "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app"
+s348779159.442214
+e348779159.477727
+r1
+xTouch
+x/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Touch /Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.appe9497197f2c9b441^514c7a97f2c9b441^---0#0#0#--330"Touch build/Debug-iphonesimulator/Water.app    cd "/Volumes/Ext 1Tb HDD/Xcode projects/Water"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Volumes/Ext 1Tb HDD/Xcode projects/Water/build/Debug-iphonesimulator/Water.app"36"63B7DD53-223B-4112-A313-2A81B21E0CCC-
+
