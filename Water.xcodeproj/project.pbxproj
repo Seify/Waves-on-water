@@ -198,7 +198,7 @@
 		B1ACC49C14C0BE8600C541D2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = B1ACC49F14C0BE8600C541D2 /* Build configuration list for PBXProject "Water" */;
 			compatibilityVersion = "Xcode 3.2";
