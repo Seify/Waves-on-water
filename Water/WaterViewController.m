@@ -400,24 +400,41 @@ enum
 {
     //popover here
     
-    if (!self.popController) {
+    if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad ) {
+        
+        //мы на iPad
+        
+        if (!self.popController) {
+            SettingsTableViewController* settings = [[SettingsTableViewController alloc] initWithStyle:UITableViewStylePlain];
+            settings.delegate = self;
+            settings.tableView.scrollEnabled = NO;
+            UINavigationController *navcon = [[UINavigationController alloc] initWithRootViewController:settings];
+            UIPopoverController* aPopover = [[UIPopoverController alloc]
+                                             initWithContentViewController:navcon];
+            aPopover.delegate = self;
+            
+            // Store the popover in a custom property for later use.
+            self.popController = aPopover;
+            
+            [self.popController presentPopoverFromBarButtonItem:sender
+                                       permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+        } else {
+            [self.popController dismissPopoverAnimated:YES];
+            self.popController = nil;
+        }    
+    } 
+    else if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone ) 
+    {
+        // мы на iPhone
+        
         SettingsTableViewController* settings = [[SettingsTableViewController alloc] initWithStyle:UITableViewStylePlain];
         settings.delegate = self;
-        settings.tableView.scrollEnabled = NO;
-        UINavigationController *navcon = [[UINavigationController alloc] initWithRootViewController:settings];
-        UIPopoverController* aPopover = [[UIPopoverController alloc]
-                                         initWithContentViewController:navcon];
-        aPopover.delegate = self;
-        
-        // Store the popover in a custom property for later use.
-        self.popController = aPopover;
-        
-        [self.popController presentPopoverFromBarButtonItem:sender
-                                       permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
-    } else {
-        [self.popController dismissPopoverAnimated:YES];
-        self.popController = nil;
+//        settings.tableView.scrollEnabled = YES;
+        [[self navigationController] pushViewController:settings animated:YES];
+
     }
+    
+
 }
 
 - (void)popoverControllerDidDismissPopover:(UIPopoverController *)popoverController

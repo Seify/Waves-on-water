@@ -19,6 +19,10 @@ uniform float time;
 
 //wave = (Amplitude, Wavenumber, Angular frequency, Phase)
 //waveparam = (Type, Direction, Center Position X, Center Position Y)
+
+//TEST2
+
+
 uniform vec4 wave1;
 uniform vec4 wave1param2;
 uniform vec4 wave2;

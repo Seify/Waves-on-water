@@ -9,10 +9,142 @@
 #import "DetailSettingsTableViewController.h"
 #import "WaveTypeSelectorTableViewController.h"
 
+@interface DetailSettingsTableViewController()
+{
+    NSArray *cells;
+}
+@property (readonly, strong) NSArray *cells;
+@end
+
 @implementation DetailSettingsTableViewController
 
 @synthesize delegate;
 @synthesize wave = _wave;
+
+- (NSArray *)cells
+{
+    if (!cells){
+        NSMutableArray *tempArray = [NSMutableArray array];
+        
+        
+        for (int i=0; i<7; i++){
+            static NSString *CellIdentifier = @"Cell";
+            
+            UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault 
+                                                           reuseIdentifier:CellIdentifier];
+            
+            
+            CGRect frame = CGRectMake(0, 
+                                      0, 
+                                      cell.contentView.frame.size.width - 20, 
+                                      cell.contentView.frame.size.height);
+            
+            
+            if (i == 0) {
+                //        UILabel *label = [[UILabel alloc] initWithFrame:frame];
+                cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+                
+                //        cell.textLabel.textAlignment = UITextAlignmentCenter;
+                
+                switch (self.wave.type) {
+                    case WAVE_TYPE_HARMONIC:
+                        //                cell.imageView.image = [UIImage imageNamed:@"waterTexture1024.jpg"];
+                        cell.textLabel.text = @"Harmonic";
+                        break;
+                    case WAVE_TYPE_SPHERICAL:
+                        //                cell.imageView.image = [UIImage imageNamed:@"Icon-72.png"];
+                        cell.textLabel.text = @"Spherical";
+                        break;
+                    case WAVE_TYPE_SPIRAL:
+                        //                cell.imageView.image = [UIImage imageNamed:@"spiral_small.png"];
+                        cell.textLabel.text = @"Spiral";
+                        break;
+                        
+                    default:
+                        break;
+                }
+                
+            } 
+            else {
+                NSArray *subs = cell.contentView.subviews;
+                if ([[subs lastObject] isKindOfClass:[UISlider class]]) {
+                    [[subs lastObject] removeFromSuperview]; 
+                }
+                UISlider *slider = [[UISlider alloc] initWithFrame:frame];
+                slider.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+                
+                slider.tag = i;
+                [slider addTarget:self action:@selector(sliderUpdate:) 
+                 forControlEvents:UIControlEventValueChanged];    
+                
+                
+                switch (i) {
+                    case 1: //Amplitude
+                        slider.minimumValue =  0.0f;
+                        slider.maximumValue =  1.0f;
+                        slider.value = self.wave.amplitude;
+                        //            cell.textLabel.text = self.wave.name;
+                        break;
+                    case 2: //Wavenumber
+                        slider.minimumValue = 0.0f;
+                        slider.maximumValue = 2.5f;
+                        slider.value = self.wave.wavenumber;
+                        //            cell.textLabel.text = [NSString stringWithFormat:@"%f", self.wave.amplitude];
+                        break;
+                    case 3: //Angular frequency
+                        slider.minimumValue = 0.0f;
+                        slider.maximumValue = 5.0f;
+                        slider.value = self.wave.angularFrequency;
+                        slider.continuous = NO;
+                        break;
+                    case 4: //Phase
+                        slider.minimumValue = 0;
+                        slider.maximumValue = 2 * M_PI;
+                        slider.value = self.wave.phase;
+                        break;
+                    case 5: //Direction OR PositionX
+                        switch (self.wave.type) {
+                            case WAVE_TYPE_HARMONIC:
+                                slider.minimumValue = 0;
+                                slider.maximumValue = 2 * M_PI;
+                                slider.value = self.wave.direction;                        
+                                break;
+                            case WAVE_TYPE_SPHERICAL:
+                            case WAVE_TYPE_SPIRAL:
+                                slider.minimumValue = -10.0;
+                                slider.maximumValue = 10.0;
+                                slider.value = self.wave.positionX;                        
+                                break;
+                            default:
+                                break;
+                        }
+                        break;
+                    case 6: //PositionY
+                        slider.minimumValue = -10.0;
+                        slider.maximumValue = 10.0;
+                        slider.value = self.wave.positionY;                   
+                        break;
+                        
+                    default:
+                        break;
+                }
+                
+                [cell.contentView addSubview:slider];    
+                
+            }
+            
+            cell.tag = i;
+            
+            [tempArray addObject:cell];
+
+        }
+        
+        cells = [NSArray arrayWithArray:tempArray];
+        
+    }
+    
+    return cells;
+}
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -96,16 +228,18 @@
             retValue = 7;
             break;
             
-        default:
+        default:{
+            NSLog(@"%@ : %@ Warning! Unexpected wave type: %d", self, NSStringFromSelector(_cmd), self.wave.type);
             retValue = 0;
             break;
+        }
     }
     return retValue;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
+//#warning Incomplete method implementation.
     // Return the number of rows in the section.
     return 1;
 }
@@ -154,114 +288,8 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
-    }
-    
-    CGRect frame = CGRectMake(0, 
-                              0, 
-                              cell.contentView.frame.size.width - 20, 
-                              cell.contentView.frame.size.height);
-
-    
-    if (indexPath.section == 0) {
-//        UILabel *label = [[UILabel alloc] initWithFrame:frame];
-        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-        
-//        cell.textLabel.textAlignment = UITextAlignmentCenter;
-
-        switch (self.wave.type) {
-            case WAVE_TYPE_HARMONIC:
-//                cell.imageView.image = [UIImage imageNamed:@"waterTexture1024.jpg"];
-                cell.textLabel.text = @"Harmonic";
-                break;
-            case WAVE_TYPE_SPHERICAL:
-//                cell.imageView.image = [UIImage imageNamed:@"Icon-72.png"];
-                cell.textLabel.text = @"Spherical";
-                break;
-            case WAVE_TYPE_SPIRAL:
-//                cell.imageView.image = [UIImage imageNamed:@"spiral_small.png"];
-                cell.textLabel.text = @"Spiral";
-                break;
-                
-            default:
-                break;
-        }
-        
-    } else {
-        NSArray *subs = cell.contentView.subviews;
-        if ([[subs lastObject] isKindOfClass:[UISlider class]]) {
-            [[subs lastObject] removeFromSuperview]; 
-        }
-        UISlider *slider = [[UISlider alloc] initWithFrame:frame];
-        slider.tag = indexPath.section;
-        [slider addTarget:self action:@selector(sliderUpdate:) 
-         forControlEvents:UIControlEventValueChanged];    
-        
-        
-        switch (indexPath.section) {
-            case 1: //Amplitude
-                slider.minimumValue =  0.0f;
-                slider.maximumValue =  1.0f;
-                slider.value = self.wave.amplitude;
-    //            cell.textLabel.text = self.wave.name;
-                break;
-            case 2: //Wavenumber
-                slider.minimumValue = 0.0f;
-                slider.maximumValue = 2.5f;
-                slider.value = self.wave.wavenumber;
-    //            cell.textLabel.text = [NSString stringWithFormat:@"%f", self.wave.amplitude];
-                break;
-            case 3: //Angular frequency
-                slider.minimumValue = 0.0f;
-                slider.maximumValue = 5.0f;
-                slider.value = self.wave.angularFrequency;
-                slider.continuous = NO;
-                break;
-            case 4: //Phase
-                slider.minimumValue = 0;
-                slider.maximumValue = 2 * M_PI;
-                slider.value = self.wave.phase;
-                break;
-            case 5: //Direction OR PositionX
-                switch (self.wave.type) {
-                    case WAVE_TYPE_HARMONIC:
-                        slider.minimumValue = 0;
-                        slider.maximumValue = 2 * M_PI;
-                        slider.value = self.wave.direction;                        
-                        break;
-                    case WAVE_TYPE_SPHERICAL:
-                    case WAVE_TYPE_SPIRAL:
-                        slider.minimumValue = -10.0;
-                        slider.maximumValue = 10.0;
-                        slider.value = self.wave.positionX;                        
-                        break;
-                    default:
-                        break;
-                }
-                break;
-            case 6: //PositionY
-                slider.minimumValue = -10.0;
-                slider.maximumValue = 10.0;
-                slider.value = self.wave.positionY;                   
-                break;
-                
-            default:
-                break;
-        }
-        
-        [cell.contentView addSubview:slider];    
-        
-    }
-    
-    cell.tag = indexPath.section;
-        
-        
-    
-    return cell;
+    // ячейки таблицы жестко заданы и не переиспользуются
+    return [self.cells objectAtIndex:indexPath.section];
 }
 
 - (void)sliderUpdate:(UISlider *)slider
@@ -354,7 +382,13 @@
     detailViewController.parentDelegate = self;
     detailViewController.wave = self.wave;
     
-    detailViewController.tableView.scrollEnabled = NO;
+    if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad ) {
+        // мы на iPad
+        detailViewController.tableView.scrollEnabled = NO;
+    } else if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone ) {
+        // мы на iPhone
+    }
+    
     [self.navigationController pushViewController:detailViewController animated:YES];
     
 }

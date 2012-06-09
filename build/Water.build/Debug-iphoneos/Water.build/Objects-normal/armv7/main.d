@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/Seify/Desktop/My\ Projects/Waves\ on\ water\ 1.1/Water/main.m \
-  /Users/Seify/Desktop/My\ Projects/Waves\ on\ water\ 1.1/Water/WaterAppDelegate.h
+  /Users/Seify/Desktop/My\ Projects/Waves-on-water/Water/main.m \
+  /Users/Seify/Desktop/My\ Projects/Waves-on-water/Water/WaterAppDelegate.h

@@ -162,7 +162,13 @@
     detailViewController.delegate = self.delegate;
 //    detailViewController.wave = [self.delegate.waves objectAtIndex:indexPath.row];
     detailViewController.wave = [self.delegate.waves objectAtIndex:indexPath.row];
-    detailViewController.tableView.scrollEnabled = NO;
+    
+    if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad ) {
+        // мы на iPad
+        detailViewController.tableView.scrollEnabled = NO;
+    } else if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone ) {
+        // мы на iPhone
+    }
     
     NSLog(@"indexPath.row = %d", indexPath.row);
     NSLog(@"wave = %@", detailViewController.wave);

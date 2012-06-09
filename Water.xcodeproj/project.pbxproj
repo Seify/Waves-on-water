@@ -11,8 +11,11 @@
 		B111B06314C9F821001A8767 /* Wave.m in Sources */ = {isa = PBXBuildFile; fileRef = B111B06214C9F821001A8767 /* Wave.m */; };
 		B111B06614CA0FBD001A8767 /* DetailSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B111B06514CA0FBD001A8767 /* DetailSettingsTableViewController.m */; };
 		B11323F214E6CC47003F0B07 /* WaveTypeSelectorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B11323F114E6CC47003F0B07 /* WaveTypeSelectorTableViewController.m */; };
-		B1132CE514E8006B0007EC47 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B1132CE414E8006B0007EC47 /* Default-Portrait~ipad.png */; };
-		B1132CE714E800760007EC47 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B1132CE614E800760007EC47 /* Default-Landscape~ipad.png */; };
+		B1132CE514E8006B0007EC47 /* Water-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B1132CE414E8006B0007EC47 /* Water-Portrait~ipad.png */; };
+		B1132CE714E800760007EC47 /* Water-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B1132CE614E800760007EC47 /* Water-Landscape~ipad.png */; };
+		B1870AAA158106B60063FDD3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1870AA9158106B60063FDD3 /* MainStoryboard_iPhone.storyboard */; };
+		B187AB1D15836F870010C700 /* Water-Landscape@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = B187AB1B15836F870010C700 /* Water-Landscape@2x~iphone.png */; };
+		B187AB1E15836F870010C700 /* Water-Portrait@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = B187AB1C15836F870010C700 /* Water-Portrait@2x~iphone.png */; };
 		B1ACC4AA14C0BE8700C541D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ACC4A914C0BE8700C541D2 /* UIKit.framework */; };
 		B1ACC4AC14C0BE8700C541D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ACC4AB14C0BE8700C541D2 /* Foundation.framework */; };
 		B1ACC4AE14C0BE8700C541D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ACC4AD14C0BE8700C541D2 /* CoreGraphics.framework */; };
@@ -38,9 +41,12 @@
 		B111B06514CA0FBD001A8767 /* DetailSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailSettingsTableViewController.m; sourceTree = "<group>"; };
 		B11323F014E6CC47003F0B07 /* WaveTypeSelectorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveTypeSelectorTableViewController.h; sourceTree = "<group>"; };
 		B11323F114E6CC47003F0B07 /* WaveTypeSelectorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveTypeSelectorTableViewController.m; sourceTree = "<group>"; };
-		B1132CE414E8006B0007EC47 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
-		B1132CE614E800760007EC47 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		B1132CE414E8006B0007EC47 /* Water-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Water-Portrait~ipad.png"; sourceTree = "<group>"; };
+		B1132CE614E800760007EC47 /* Water-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Water-Landscape~ipad.png"; sourceTree = "<group>"; };
 		B15678F914CB4BD00003CE7F /* Water3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Water3.h; sourceTree = SOURCE_ROOT; };
+		B1870AA9158106B60063FDD3 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B187AB1B15836F870010C700 /* Water-Landscape@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Water-Landscape@2x~iphone.png"; sourceTree = "<group>"; };
+		B187AB1C15836F870010C700 /* Water-Portrait@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Water-Portrait@2x~iphone.png"; sourceTree = "<group>"; };
 		B18E80EE14C2191F00D0F773 /* ModelDataStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelDataStructures.h; sourceTree = "<group>"; };
 		B1ACC4A514C0BE8700C541D2 /* Water.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Water.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1ACC4A914C0BE8700C541D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -91,8 +97,10 @@
 		B14F760314E8013D00F606CD /* Default Images */ = {
 			isa = PBXGroup;
 			children = (
-				B1132CE614E800760007EC47 /* Default-Landscape~ipad.png */,
-				B1132CE414E8006B0007EC47 /* Default-Portrait~ipad.png */,
+				B187AB1B15836F870010C700 /* Water-Landscape@2x~iphone.png */,
+				B187AB1C15836F870010C700 /* Water-Portrait@2x~iphone.png */,
+				B1132CE614E800760007EC47 /* Water-Landscape~ipad.png */,
+				B1132CE414E8006B0007EC47 /* Water-Portrait~ipad.png */,
 			);
 			name = "Default Images";
 			sourceTree = "<group>";
@@ -132,6 +140,7 @@
 			children = (
 				B1ACC4BC14C0BE8700C541D2 /* WaterAppDelegate.h */,
 				B1ACC4BD14C0BE8700C541D2 /* WaterAppDelegate.m */,
+				B1870AA9158106B60063FDD3 /* MainStoryboard_iPhone.storyboard */,
 				B1ACC4C214C0BE8700C541D2 /* MainStoryboard_iPad.storyboard */,
 				B1132CE314E7FBE00007EC47 /* Shaders */,
 				B1ACC4C914C0BE8700C541D2 /* WaterViewController.h */,
@@ -228,8 +237,11 @@
 				B1ACC4C814C0BE8700C541D2 /* Shader.vsh in Resources */,
 				B1F9D6FB14CC5A0A002B0F71 /* waterTexture1024.jpg in Resources */,
 				B1F9D6FE14CC64A3002B0F71 /* Icon-72.png in Resources */,
-				B1132CE514E8006B0007EC47 /* Default-Portrait~ipad.png in Resources */,
-				B1132CE714E800760007EC47 /* Default-Landscape~ipad.png in Resources */,
+				B1132CE514E8006B0007EC47 /* Water-Portrait~ipad.png in Resources */,
+				B1132CE714E800760007EC47 /* Water-Landscape~ipad.png in Resources */,
+				B187AB1D15836F870010C700 /* Water-Landscape@2x~iphone.png in Resources */,
+				B1870AAA158106B60063FDD3 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B187AB1E15836F870010C700 /* Water-Portrait@2x~iphone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,8 +306,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PROVISIONING_PROFILE = "07772296-94DB-4717-AF58-D44E9F3724F8";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "07772296-94DB-4717-AF58-D44E9F3724F8";
+				PROVISIONING_PROFILE = "D64515FF-C7D2-4DCC-A757-C2CED5A3FC3B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D64515FF-C7D2-4DCC-A757-C2CED5A3FC3B";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,8 +319,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Roman Smirnov";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Roman Smirnov";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Roman Smirnov (FJ5TFGGS5H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Roman Smirnov (FJ5TFGGS5H)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -317,8 +329,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "1B9E1FDD-4E50-4CAB-B67D-091D61FDD623";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1B9E1FDD-4E50-4CAB-B67D-091D61FDD623";
+				PROVISIONING_PROFILE = "D64515FF-C7D2-4DCC-A757-C2CED5A3FC3B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "58F2FC7D-2828-4948-9DC1-02BDB78F2676";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -333,7 +345,7 @@
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = "Water/Water-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -346,7 +358,7 @@
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = "Water/Water-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
