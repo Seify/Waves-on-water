@@ -28,6 +28,7 @@
 		B1ACC4C614C0BE8700C541D2 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B1ACC4C514C0BE8700C541D2 /* Shader.fsh */; };
 		B1ACC4C814C0BE8700C541D2 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B1ACC4C714C0BE8700C541D2 /* Shader.vsh */; };
 		B1ACC4CB14C0BE8700C541D2 /* WaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ACC4CA14C0BE8700C541D2 /* WaterViewController.m */; };
+		B1B2897A15837DBD00EFBA2B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B2897915837DBD00EFBA2B /* Icon.png */; };
 		B1F9D6FB14CC5A0A002B0F71 /* waterTexture1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1F9D6FA14CC5A0A002B0F71 /* waterTexture1024.jpg */; };
 		B1F9D6FE14CC64A3002B0F71 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F9D6FD14CC64A2002B0F71 /* Icon-72.png */; };
 /* End PBXBuildFile section */
@@ -65,6 +66,7 @@
 		B1ACC4C714C0BE8700C541D2 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
 		B1ACC4C914C0BE8700C541D2 /* WaterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterViewController.h; sourceTree = "<group>"; };
 		B1ACC4CA14C0BE8700C541D2 /* WaterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterViewController.m; sourceTree = "<group>"; };
+		B1B2897915837DBD00EFBA2B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		B1F9D6FA14CC5A0A002B0F71 /* waterTexture1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waterTexture1024.jpg; sourceTree = "<group>"; };
 		B1F9D6FD14CC64A2002B0F71 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -177,6 +179,7 @@
 			children = (
 				B1F9D6FA14CC5A0A002B0F71 /* waterTexture1024.jpg */,
 				B1F9D6FD14CC64A2002B0F71 /* Icon-72.png */,
+				B1B2897915837DBD00EFBA2B /* Icon.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				B187AB1D15836F870010C700 /* Water-Landscape@2x~iphone.png in Resources */,
 				B1870AAA158106B60063FDD3 /* MainStoryboard_iPhone.storyboard in Resources */,
 				B187AB1E15836F870010C700 /* Water-Portrait@2x~iphone.png in Resources */,
+				B1B2897A15837DBD00EFBA2B /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,8 +323,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Roman Smirnov (FJ5TFGGS5H)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Roman Smirnov (FJ5TFGGS5H)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Roman Smirnov";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Roman Smirnov";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -329,8 +333,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "D64515FF-C7D2-4DCC-A757-C2CED5A3FC3B";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "58F2FC7D-2828-4948-9DC1-02BDB78F2676";
+				PROVISIONING_PROFILE = "1B9E1FDD-4E50-4CAB-B67D-091D61FDD623";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1B9E1FDD-4E50-4CAB-B67D-091D61FDD623";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

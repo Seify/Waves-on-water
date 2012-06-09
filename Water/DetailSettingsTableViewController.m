@@ -372,6 +372,13 @@
 }
 */
 
+
+- (void)refresh
+{
+    cells = nil;
+    [self.tableView reloadData];
+}
+
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath

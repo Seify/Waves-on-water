@@ -17,6 +17,7 @@
 {
     __weak WaterViewController *delegate;
 }
+- (void) refresh;
 @property (weak) WaterViewController *delegate;
 @property (weak) Wave *wave;
 

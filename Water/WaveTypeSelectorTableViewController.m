@@ -163,7 +163,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     self.wave.type = indexPath.row + 1;
-    [parentDelegate.tableView reloadData];
+    [parentDelegate refresh];
+//    [parentDelegate.tableView reloadData];
 //    [parentDelegate.tableView setNeedsDisplay];
     [self.navigationController popViewControllerAnimated:YES];
 }
